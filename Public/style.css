@@ -409,7 +409,7 @@ display: block;
 
 /*** MEDIA QUERIES ***/
 
-@media (max-width: 1003px) {
+/*@media (max-width: 1003px) {
     #logo {
      padding-right: 3em;  
     }
@@ -572,7 +572,7 @@ display: block;
         padding: 0;
     } }*/
     
-    #mobile-logo img {
+    /*#mobile-logo img {
     width: 100px;
     margin: 0 auto;
     padding: 0;
@@ -611,9 +611,9 @@ display: block;
 
     .mobile-menu a:visited {
     color: #fff !important;
-    }
+    }*/
 
-    h1 {
+  /*  h1 {
     font-size: 3em;
     padding-top: .5em;
     padding-bottom: .5em;
@@ -661,7 +661,7 @@ display: block;
     
     .socicon {
         padding-bottom: .75em;
-    } }
+    } }*/
     
     /*@media (max-width: 454px) {
         h1 {
