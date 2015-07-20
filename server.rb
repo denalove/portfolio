@@ -1,6 +1,6 @@
 require 'sinatra'
 
 get '/' do 
-	File.read('Public/portfolio.html')
+	File.read('public/portfolio.html')
 	
 end
