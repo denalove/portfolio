@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -409,8 +413,8 @@ display: block;
 
 /*** MEDIA QUERIES ***/
 
-/*@media (max-width: 1003px) {
-    #logo {
+@media only screen and (max-width: 1003px) {
+    #logo h1 {
      padding-right: 3em;  
     }
     #nav {
@@ -465,8 +469,8 @@ display: block;
 }
 
 
-@media (max-width: 756px) {
-    #logo {
+@media only screen and (max-width: 756px) {
+    #logo h1 {
         width: 100%;
         margin: auto;
         padding-bottom: 20px;
@@ -563,31 +567,24 @@ display: block;
     }
 
 
-/*@media (max-width: 600px) {
-    #logo { display: none }
-    #mobile-logo {
-        display: inline-block;
-        text-align: center;
-        margin: 0 auto;
-        padding: 0;
-    } }*/
-    
-    /*#mobile-logo img {
-    width: 100px;
-    margin: 0 auto;
-    padding: 0;
-    }
-     
+@media only screen and (max-width: 600px) {
+    #logo h1 { 
+        font-size: 2em;
+        margin-top: 0;
+        padding-top: 0;
+     }
+   
     #nav li {
-     display: none;
+     display: center;
+     font-size: 1em;
     }
     .hamburger {
         display: block !important;
     }
         
     #hello {
-    padding: 8em 5em 5em 5em;
-    min-height: 450px;
+    padding: 6em 3em 3em 3em;
+    min-height: 350px;
     }
  
     p {
@@ -611,9 +608,9 @@ display: block;
 
     .mobile-menu a:visited {
     color: #fff !important;
-    }*/
+    }
 
-  /*  h1 {
+    h1 {
     font-size: 3em;
     padding-top: .5em;
     padding-bottom: .5em;
@@ -661,13 +658,18 @@ display: block;
     
     .socicon {
         padding-bottom: .75em;
-    } }*/
+    } 
+}
+
     
-    /*@media (max-width: 454px) {
+    @media only screen and (max-width: 454px) {
+        #logo h1 {
+            font-size: 2em;
+        }
         h1 {
     font-size: 2.15em;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
     }
     h3 { font-size: 1.25em; line-height: 1.25em; }
-    }*/
+    }
