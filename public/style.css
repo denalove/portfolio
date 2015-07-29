@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 
 html, body, div, span, object, iframe,
@@ -415,7 +413,7 @@ display: block;
 
 @media only screen and (max-width: 1003px) {
     #logo h1 {
-     padding-right: 3em;  
+     padding-right: 0;  
     }
     #nav {
      max-width:800px;
@@ -474,12 +472,9 @@ display: block;
         width: 100%;
         margin: auto;
         padding-bottom: 20px;
+        padding-top: 0;
     }
 
-     #logo img {
-    width: 300px;
-    margin: auto;
-    }
     #nav li {
      display: inline-block;
      margin-left: 15px;
@@ -487,8 +482,8 @@ display: block;
     }
         
     #hello {
-    padding: 8em 5em 5em 5em;
-    min-height: 700px;
+    padding: 3em 5em 5em 5em;
+    min-height: 500px;
     }
     nav {
         margin: 0 auto;
@@ -569,6 +564,8 @@ display: block;
 
 @media only screen and (max-width: 600px) {
     #logo h1 { 
+        padding-right: 0;
+        display: center;
         font-size: 2em;
         margin-top: 0;
         padding-top: 0;
@@ -583,7 +580,7 @@ display: block;
     }
         
     #hello {
-    padding: 6em 3em 3em 3em;
+    padding: 4em 3em 3em 3em;
     min-height: 350px;
     }
  
@@ -664,7 +661,7 @@ display: block;
     
     @media only screen and (max-width: 454px) {
         #logo h1 {
-            font-size: 2em;
+            
         }
         h1 {
     font-size: 2.15em;
