@@ -137,7 +137,7 @@ outline: #C8C02E solid 2px;
 #logo h1 {
     float: left;
     padding-right: 4em;
-    padding-left: 1em;
+    padding-left: 0em;
     font-size: 56px;
     font-family: 'Princess Sofia', cursive;
     font-weight: bold;
@@ -311,17 +311,22 @@ display: block;
 
 @media only screen and (max-width: 1003px) {
     #logo h1 {
-     padding-right: 0;  
+     padding-right: 0; 
+     padding-top: 0; 
     }
     #nav {
      max-width:800px;
-     margin: auto;
+     /*margin: auto;*/
+
     }
     #logo img {
     width: 300px;
     }
-    nav {
+    /*nav {
         margin: auto;
+    }*/
+    nav ul {
+        /*padding-left: 15em;*/
     }
     p {
     font-size: 1.15em;
@@ -520,6 +525,10 @@ display: block;
     font-size: 2.15em;
     padding-top: .2em;
     padding-bottom: .2em;
+    }
+    #nav li {
+     display: center;
+     font-size: .5em;
     }
     h3 { font-size: 1.25em; line-height: 1.25em; }
     }
